@@ -1,0 +1,55 @@
+@import "../../css/variable.less";
+
+.layout-container {
+  position: absolute;
+  top: @header-height;
+  left: @sidebar-width;
+  bottom: 0px;
+  right: 0px;
+  background-color: @theme-container-background;
+  padding-bottom: @inner-container-border-space;
+  padding-left: @inner-container-border-space;
+  padding-right: @inner-container-border-space;
+}
+
+.layout-root .layout-container-expand {
+    left: 0;
+}
+
+.layout-container .inner-container {
+  position: absolute;
+
+  top: @curmbs-height;
+  bottom: @inner-container-border-space;
+  left: @inner-container-border-space;
+  right: @inner-container-border-space;
+  padding: 20px 15px 10px 15px;
+  
+  // min-width: 980px;
+  overflow: auto;
+  border-radius: 5px;
+  background-color: @theme-inner-container-background;
+  .business-title {
+      padding: 24px 0 0 15px;
+      font-size: 16px;
+      color: @theme-title-color;
+  }
+  .query-result-toolbar {
+    position: fixed;
+    bottom: 30px;
+    left: @sidebar-width + 40;
+    z-index: 10;
+  }
+}
+
+.query-form .search-form-select{
+  height: 28px;
+  line-height: 28px;
+  width: 160px;
+}
+
+.submit-form-select{
+  height: 28px;
+  line-height: 28px;
+  width: 100px;
+}

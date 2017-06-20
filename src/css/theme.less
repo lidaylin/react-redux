@@ -1,0 +1,69 @@
+body, html , .layout-root {
+    margin: 0px;
+}
+
+.layout-root {
+    height: 100%;
+    width: 100%;
+    .btn-hover;
+}
+
+.form-label {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  width: 60px;
+  line-height: @form-line-height;
+}
+
+.query-form {
+
+  label {
+    .form-label;
+  }
+
+  .label {
+    .form-label;
+  }
+
+  .query-input {
+    float: left;
+    margin-right: 30px;
+    height: 28px;
+  }
+  .form-line {
+    margin-bottom: 12px;
+  }
+}
+
+.query-result {
+  margin-top: 16px;
+  bottom: 0px;
+  min-width: 980px;
+}
+
+.hide {
+  display: none!important;
+}
+
+.layout-frame {
+  height: 100%;
+
+  >.ant-spin-nested-loading {
+    height: 100%;
+
+    >.ant-spin-container {
+        height: 100%;
+    }
+  }
+}
+
+.btn-hover() {
+  .ant-btn {
+    border: none;
+    &:hover,
+    &:focus {
+      background-color: @theme-button-color-hover;
+    }
+  }
+}

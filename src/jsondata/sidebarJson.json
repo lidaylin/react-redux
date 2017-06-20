@@ -1,0 +1,82 @@
+{
+	"sidebarJson": [
+    {
+      "key": "/score",
+      "name": "积分管理",
+      "child": [
+        {
+          "key": "/score/recharge",
+          "name": "积分充值"
+        }, {
+          "key": "/score/publish",
+          "name": "积分发放"
+        }, {
+          "key": "/score/use",
+          "name": "积分使用"
+        }, {
+          "key": "/score/withdraw",
+          "name": "积分提现"
+        }
+      ]
+    },{
+      "key": "/money",
+      "name": "资金管理",
+      "child": [
+        {
+          "key": "/money/income",
+          "name": "收入管理",
+          "child": [
+            {
+              "key": "/money/income/confirm",
+              "name": "收入确认"
+            }, {
+              "key": "/money/income/search",
+              "name": "收入查询"
+            }
+          ]
+        }, {
+          "key": "/money/expend",
+          "name": "支出管理",
+          "child": [
+            {
+              "key": "/money/expend/handle",
+              "name": "支出经办"
+            }, {
+              "key": "/money/expend/review",
+              "name": "支出复核"
+            }, {
+              "key": "/money/expend/confirm",
+              "name": "支出确认"
+            }, {
+              "key": "/money/expend/search",
+              "name": "支出查询"
+            }
+          ]
+        }, {
+          "key": "/money/voucher",
+          "name": "制证管理",
+          "child": [
+            {
+              "key": "/money/voucher/search",
+              "name": "凭证查询"
+            }
+          ]
+        }
+      ]
+    },{
+      "key": "/report",
+      "name": "报表查询",
+      "child": [
+        {
+          "key": "/report/income",
+          "name": "收入积分表"
+        }, {
+          "key": "/report/cost",
+          "name": "成本积分表"
+        }, {
+          "key": "/report/account",
+          "name": "资金变动表"
+        }
+      ]
+    }]
+}

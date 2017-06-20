@@ -1,0 +1,47 @@
+@import "../../css/variable.less";
+
+.layout-sidebar {
+    position: absolute;
+    top: 60px;
+    bottom: 0px;
+    
+    border-right: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+
+    .switch-box {
+        position:absolute;
+        top: 0px;
+        bottom: 0px;
+        right: -16px;
+        margin: auto;
+        z-index: 10;
+
+        width: 16px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 0 3px 3px 0;
+
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: @theme-button-color;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .switch-box:hover {
+        background-color: @theme-button-color-hover;
+    }
+}
+
+.layout-root .layout-sidebar-hide .ant-menu-root{
+    width: 0px;
+}
+
+.layout-sidebar .ant-menu-root {
+    width: @sidebar-width;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
